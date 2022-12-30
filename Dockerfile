@@ -7,9 +7,9 @@ ENV BEARER=""
 ENV NETWORK="on"
 ENV PROTOCOL="lightway_udp"
 ENV CIPHER="chacha20"
+ENV PLATFORM="amd64"
+ENV NUM="3.38.0.3"
 
-ARG NUM
-ARG PLATFORM
 
 COPY files/ /expressvpn/
 
